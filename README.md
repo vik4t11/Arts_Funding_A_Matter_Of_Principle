@@ -19,23 +19,21 @@ This analysis brings a human perspective to the limitations of reductive statist
 
 **Columns**: Recipient, activity name, award amount, decision date, decision month, decision quarter, ACE Area, local authority, main discipline and time-Limited Priority. 
 
-## <u>**Ethics and Compliance**</u> 
+## <u>**Data Licensing**</u> 
 
-Data governance principles are considered from the start. Publicly available data is downloaded from the official ACE website. GDPR restricts success rates from being calculated by excluding unsuccessful applicants to comply with ACE publication policy.
+[Arts Council England – Project Grants Data](https://www.artscouncil.org.uk/ProjectGrants/project-grants-data) was downloaded from the official website. The [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/) allows data covered by the licence to be reused and adapted, provided the source is credited and the licence conditions are followed.
 
-Data minimisation is also applied in the ETL notebook by removing columns identifying recipients' names and project details to support responsible data management and privacy protection.
+The third-party website [DOGE UK – Arts Council England Grant Data](https://doge-uk.com/funding/arts-council-england-all-grants/) lists the National Lottery Project Grants data under this licence. However, this could not be independently confirmed through ACE's own website. A search of ACE's listings [data.gov.uk](https://www.data.gov.uk/search?page=1&q=Catalogues&query=Catalogues) found other ACE datasets listed under the OGL, but not the specific dataset used in this project.. 
+
+In comparison, the [National Lottery Heritage Funds](https://www.heritagefund.org.uk/about/insight/open-data) explicitly states that its grant data is published under the OGL and available for reuse. It identifies policymakers, researchers, journalists, heritage organisations, potential applicants and the public as intended audiences. This illustrates how clear licensing information can support access to public funding data, although the Heritage Fund's arrangements do not confirm the licence applicable to ACE's data.
+
+The next step is to contact ACE to confirm the applicable licence terms and review whether the dataset should remain publicly available in the repository.
 
 ## <u>**Disclaimer**</u>
 
-*Arts Council England Funds Painted by Numbers* was produced for educational purposes as part of the Code Institute Advanced Data Analytics, Visualisation and Machine Learning Summative Assessment 2. While the project aims to simulate a real-world analysis, its primary purpose is to fulfil the requirements of the Data Analytics with AI Skills Diploma.
+*Arts Council England Awards Painted by Numbers* was produced for educational purposes as part of the Code Institute Advanced Data Analytics, Visualisation and Machine Learning Summative Assessment 2. While the project aims to simulate a real-world analysis, its primary purpose is to fulfil the requirements of the Data Analytics with AI Skills Diploma.
 
 ## <u>**Business Requirements**</u>
-
-The technical analysis explores how Arts Council England distributes National Lottery Project Grants, using data analytics, machine learning and visualisation to uncover funding patterns and support informed decision-making across the cultural sector.
-
-**Descriptive Analysis** - The datasets present a record of past funding decisions, showing where money went and how much different disciplines received between 2023-2024 and 2025-2026. The dashboard enables stakeholders to compare awards across ACE areas, main disciplines and funding streams, supporting policy-makers in reviewing regional disparities and for artists to understand the grant landscape.
-
-**Actionble Insights** - Analysis of main disciplines, regional differences and funding streams supports informed decision-making. Whilst machine learning explores potential future outcomes, historical patterns can help policy-makers review funding priorities and applicants develop more informed grant applications. These insights inform decisions but do not guarantee future funding outcomes.
 
 ## <u>**Hypothesis**</u>
 
@@ -219,75 +217,17 @@ This project also acknowledges the ethical challenge of applying machine‑learn
 
 ## <u>**Credits**</u> 
 
-**Extract, Transform and Load**
+**Data Licence**
 
-*Markdown for Jupyter Notebooks* https://www.ibm.com/docs/en/watson-studio-local/1.2.3?topic=notebooks-markdown-jupyter-cheatsheet
+*Heritage fund open data comparison* - https://www.heritagefund.org.uk/about/insight/open-data
 
-*Pandas Cheat Sheet* - https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf
+*Open Government Licence* - https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
 
-*Standardise column names* - https://support.dataquest.io/en/articles/819-messy-column-names-here-s-how-to-fix-them-with-pandas
+*ACE Datasets Open Government License third-party claim* - https://doge-uk.com/funding/arts-council-england-all-grants/
 
-*Convert data types* - https://stackoverflow.com/questions/15891038/change-column-type-in-pandas
-
-*Time-stamp removal from date-time column* - https://stackoverflow.com/questions/16176996/keep-only-date-part-when-using-pandas-to-datetime
-
-*Research time-limited priority column* - https://www.artscouncil.org.uk/ProjectGrants/national-lottery-project-grants-guidance-library#t-in-page-nav-5
-
-*Research multiple local authorities partnerships* https://www.artscouncil.org.uk/sites/default/files/2023-09/Place%20Partnership%20projects%20and%20Project%20Grants%20-%20Information%20sheet.pdf
-
-*How to concat pandas DataFrame* - https://stackoverflow.com/questions/73100882/how-to-concat-pandas-dataframe
-
-**Exploratory Data Analysis**
-
-*Plotting charts using different libraries* https://lms.codeinstitute.net/learner_module/show/125519?lesson_id=537117&section_id=2067795
-
-*Distribution of wealth in Great Britain* - https://www.ons.gov.uk/peoplepopulationandcommunity/personalandhouseholdfinances/incomeandwealth/bulletins/distributionofindividualtotalwealthbycharacteristicingreatbritain/april2018tomarch2020
-
-*Indices of Deprivation in Birmingham* - https://cityobservatory.birmingham.gov.uk/pages/indices_of_deprivation_2025_in_birmingham/
-
-*Biggest cities by population in UK* - https://www.ciphr.com/infographics/biggest-cities-in-the-uk-by-population
-
-*Winsorization statistic technique to cap outliers* - https://amplitude.com/explore/experiment/data-winsorization
-
-*Zero award amounts data quality check* - https://www.whatdotheyknow.com/request/discrepancies_3_ace_grants_for_t
-
-*Model selection to conclude EDA* - https://www.geeksforgeeks.org/machine-learning/tree-based-machine-learning-algorithms/
-
-*Statistical Terms* - https://www.ibm.com/docs/en/cognos-analytics/11.2.x?topic=dashboards-statistical-terms
-
-*Welch's ANOVA Hypothesis Testing* - https://www.statisticshowto.com/welchs-anova/
-
-*Statsmodels ANOVA Documentation* - https://www.statsmodels.org/devel/generated/statsmodels.stats.oneway.anova_oneway.html
-
-**Feature Engineering**
-
-*Selecting classification tiers for award amount* - https://www.slideshare.net/slideshow/ch-7-tertile-quartile-and-percentiledoc/264658868
-
-**Machine Learning Model**
-
-*Random Forest* - https://www.ibm.com/think/topics/random-forest
-
-*Classification evaluation using scikit-learn* - https://www.ibm.com/think/topics/scikit-learn
-
-*Model evaluation methodolgy* - https://medium.com/analytics-vidhya/evaluating-a-random-forest-model-9d165595ad56
-
-*Machine Learning steps* - https://github.com/IBM/ml-learning-path-assets/blob/master/examples/classification_start_to_end_with_scikit_learn.ipynb
-
-*Random Forest feature importance* - https://scikit-learn.org/stable/auto_examples/ensemble/plot_forest_importances.html
-
-*Preprocessing OneHotEncoder documentation* - https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OneHotEncoder
-
-**Tableau Dashboard**
-
-*Layout containers explained* - https://www.youtube.com/watch?v=mAYvayW77Vw
-
-*Visualising KPIs* - https://help.tableau.com/current/pro/desktop/en-us/kpi.htm
-
-*Data visualisation designs* - https://www.tableau.com/blog/most-favorited-data-visualizations-tableau-public
+*National Data Library* - https://www.data.gov.uk/search
 
 **Other**
-
-*README layout* - https://github.com/RNB1993/predictive-employee-attrition-modelling
 
 *Ethical consideration* - https://www.channel4.com/programmes/molly-vs-the-machines
 
