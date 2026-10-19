@@ -9,6 +9,20 @@ This analysis brings a human perspective to the limitations of reductive statist
 
 ## <u>**Business Requirements**</u>
 
+A critical evaluation of the ethical implications to apply data analytics and machine learning onto public arts funding reinforces understanding of data responsibility, statistical interpretation, model limitations and accountable decision-making.
+
+**Review data handling:** Evaluate the dataset's source, licensing uncertainty, data preparation decisions and minimisation.
+
+**Interpret data responsibly:** Examine regional and disciplinary differences in ACE National Lottery Project awards, distinguishing statistical disparities from evidence of bias.
+
+**Evaluate model reliability:** Assess the Random Forest classification model using its existing performance metrics and determine whether its predictions are suitable for informing funding decisions.
+
+**Identify risks of misrepresentation:** Consider how regional differences, disciplinary representation, class imbalance and missing contextual information may influence visualisations and model predictions.
+
+**Consider human oversight:** Evaluate why machine learning predictions should not replace contextual assessment, professional judgement or accountable decision-making in arts funding.
+
+**Communicate ethical findings:** Present the analysis, limitations and recommendations to non-technical stakeholders.
+
 ## <u>**Dataset**</u>
 
 **Dataset used**: (1) National Lottery Project Grants - List of Awards in Year 2023-2024 and (2) National Lottery Project Grants - List of Awards in Year 2025-2026
