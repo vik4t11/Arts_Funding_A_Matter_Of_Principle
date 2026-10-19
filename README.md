@@ -45,6 +45,12 @@ In comparison, the [National Lottery Heritage Funds](https://www.heritagefund.or
 
 The next step is to contact ACE to confirm the applicable licence terms and review whether the dataset should remain publicly available in the repository.
 
+## <u>**Freedom of Information and Transparency**</u>
+
+The [Information Commissioner's Office (ICO)](https://ico.org.uk/for-organisations/foi/what-is-the-foi-act-and-are-we-covered/) explains that the Freedom of Information Act 2000 gives the public the right to request recorded information held by public authorities. It also requires public authorities to publish certain information about their activities. This supports transparency and public accountability.
+
+In the context of arts funding, access to information can help researchers and the public better understand how public funding is distributed. However, published grant data alone cannot explain every funding decision or establish whether inequalities are evidence of bias. Further information, such as assessment criteria and application success rates, may be needed to understand the wider context.
+
 ## <u>**Disclaimer**</u>
 
 *Arts Council England Awards Painted by Numbers* was produced for educational purposes as part of the Code Institute Advanced Data Analytics, Visualisation and Machine Learning Summative Assessment 2. The project simulates a real-world data analysis and fulfils the requirements of the Data Analytics with AI Skills Diploma.
@@ -246,6 +252,8 @@ This project also acknowledges the ethical challenge of applying machine‑learn
 *National Data Library* - https://www.data.gov.uk/search
 
 **Other**
+
+*Freedom of Information Act 2000* - https://ico.org.uk/for-organisations/foi/what-is-the-foi-act-and-are-we-covered/
 
 *Ethical consideration* - https://www.channel4.com/programmes/molly-vs-the-machines
 
