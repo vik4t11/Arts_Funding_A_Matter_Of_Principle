@@ -1,8 +1,11 @@
-# <u>**Arts Council England Awards Painted by Numbers**</u>
+# <u>**Arts Funding: A Matter of Principle**</u>
+### An Ethical Data Analysis of Arts Council England National Lottery Award Distribution and Machine Learning
 
-*Arts Council England Awards Painted by Numbers* unpacks visual insights from Arts Council England (ACE) National Lottery Project Grants awarded between 2023-2024 and 2025-2026. 
+*Arts Funding: A Matter of Principle* examines patterns in public arts funding, distinguishes perceived inequalities from evidence of bias and evaluates the ethical implications of using machine learning to inform funding decisions.
 
-This project demonstrates a full Python-based analytics workflow, covering data extraction, transformation and loading (ETL), exploratory data analysis (EDA), feature engineering, machine learning (ML), and dashboard storytelling to reveal patterns in how cultural funding is distributed across ACE areas, artforms and funding streams for non-technical stakeholders.
+It is essential stakeholders interpret data and implement machine learning models responsibly. The nature of the arts sector lies in its unpredictability. Cultural shifts across art forms and regional growth driven by collective movements can emerge spontaneously, often beyond the reach of historical data. 
+
+This analysis brings a human perspective to the limitations of reductive statistics, examining how quantifiable patterns can flatten the complexity of creative practice by overlooking the social, cultural and regional contexts shaping artistic development.
 
 ## <u>**Dataset**</u>
 
