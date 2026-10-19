@@ -7,6 +7,8 @@ It is essential stakeholders interpret data and implement machine learning model
 
 This analysis brings a human perspective to the limitations of reductive statistics, examining how quantifiable patterns can flatten the complexity of creative practice by overlooking the social, cultural and regional contexts shaping artistic development.
 
+## <u>**Business Requirements**</u>
+
 ## <u>**Dataset**</u>
 
 **Dataset used**: (1) National Lottery Project Grants - List of Awards in Year 2023-2024 and (2) National Lottery Project Grants - List of Awards in Year 2025-2026
@@ -31,9 +33,11 @@ The next step is to contact ACE to confirm the applicable licence terms and revi
 
 ## <u>**Disclaimer**</u>
 
-*Arts Council England Awards Painted by Numbers* was produced for educational purposes as part of the Code Institute Advanced Data Analytics, Visualisation and Machine Learning Summative Assessment 2. While the project aims to simulate a real-world analysis, its primary purpose is to fulfil the requirements of the Data Analytics with AI Skills Diploma.
+*Arts Council England Awards Painted by Numbers* was produced for educational purposes as part of the Code Institute Advanced Data Analytics, Visualisation and Machine Learning Summative Assessment 2. The project simulates a real-world data analysis and fulfils the requirements of the Data Analytics with AI Skills Diploma.
 
-## <u>**Business Requirements**</u>
+*Arts Funding: A Matter of Principle* also informs the ethical considerations for Summative Assessment 3. This project reflects on the responsible use of public funding data, transparency, data protection and the limitations of machine learning in arts funding decisions.
+
+This is an independent educational analysis and is not endorsed by Arts Council England (ACE). The licence applicable to the dataset could not be independently verified. 
 
 ## <u>**Hypothesis**</u>
 
