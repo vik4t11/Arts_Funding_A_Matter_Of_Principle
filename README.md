@@ -51,14 +51,6 @@ The [Information Commissioner's Office (ICO)](https://ico.org.uk/for-organisatio
 
 In the context of arts funding, access to information can help researchers and the public better understand how public funding is distributed. However, published grant data alone cannot explain every funding decision or establish whether inequalities are evidence of bias. Further information, such as assessment criteria and application success rates, may be needed to understand the wider context.
 
-## <u>**Disclaimer**</u>
-
-*Arts Council England Awards Painted by Numbers* was produced for educational purposes as part of the Code Institute Advanced Data Analytics, Visualisation and Machine Learning Summative Assessment 2. The project simulates a real-world data analysis and fulfils the requirements of the Data Analytics with AI Skills Diploma.
-
-*Arts Funding: A Matter of Principle* also informs the ethical considerations for Summative Assessment 3. This project reflects on the responsible use of public funding data, transparency, data protection and the limitations of machine learning in arts funding decisions.
-
-This is an independent educational analysis and is not endorsed by Arts Council England (ACE). The licence applicable to the dataset could not be independently verified. 
-
 ## <u>**Hypothesis**</u>
 
 The initial hypothesis motivating this project stems from a familiar question within the arts sector: *Are National Lottery Project Grants fairly distributed across regions, artforms and funding streams?*
@@ -258,6 +250,14 @@ This project also acknowledges the ethical challenge of applying machine‑learn
 *Ethical consideration* - https://www.channel4.com/programmes/molly-vs-the-machines
 
 *Critical use of generative AI* - https://subjectguides.york.ac.uk/critical/ai
+
+## <u>**Disclaimer**</u>
+
+*Arts Council England Awards Painted by Numbers* was produced for educational purposes as part of the Code Institute Advanced Data Analytics, Visualisation and Machine Learning Summative Assessment 2. The project simulates a real-world data analysis and fulfils the requirements of the Data Analytics with AI Skills Diploma.
+
+*Arts Funding: A Matter of Principle* also informs the ethical considerations for Summative Assessment 3. This project reflects on the responsible use of public funding data, transparency, data protection and the limitations of machine learning in arts funding decisions.
+
+This is an independent educational analysis and is not endorsed by Arts Council England (ACE). The licence applicable to the dataset could not be independently verified. 
 
 ## <u>**Acknowledgements**</u>
 
