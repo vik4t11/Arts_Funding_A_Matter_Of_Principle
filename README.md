@@ -65,7 +65,7 @@ The following research questions apply descriptive and diagnostic analysis to ex
 
 3. *Can a machine-learning model predict award amount tiers with reasonable accuracy using categorical features?* Model accuracy is evaluated to assess how effectively machine learning can automate the prediction of award amount tiers using categorical features. Feature importance is also examined to identify which attributes contribute most to the model's predictions and reveal potential patterns in award amounts.
 
-## <u>**Project Plan**</u>
+## <u>**Methodology**</u>
 
 An end-to-end analytical workflow moves from raw data to an insightful dashboard, presenting discoveries from EDA alongside a simple machine-learning model designed to identify funding patterns.
 
