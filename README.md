@@ -187,9 +187,9 @@ Data-time columns took a moment to adjust accordingly due to a misunderstanding 
 
 A project board was created and reviewed daily to ensure assessment criteria was met in the allocated time-frame. Issues were created including user stories outlining who, what and the benefits for each step. Additional, subissues are included to monitor progress at each stage of the project.
 
-**Project Board Link:** https://github.com/users/vik4t11/projects/7
+**Project Board Link:** https://github.com/users/vik4t11/projects/11
 
-![ACE Project Board](images/project_board/ace_project_board.jpeg)
+![Arts Funding Ethical Analysis Project Board](images/project_board/arts_funding_ethical_analysis_project_board.jpeg)
 
 ## <u>**Technologies Used**</u>
 
