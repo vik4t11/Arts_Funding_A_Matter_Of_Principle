@@ -256,6 +256,18 @@ This project also acknowledges the ethical challenge of applying machine‑learn
 
 The General Privacy Notice published by ACE affirms 'Arts Council England does not use your personal data for automated decision and profiling.' 
 
+## <u>**Limitations and Critical Reflection**</u>
+
+An ethical approach has been central to my workflow throughout the course. Questions concerning data integrity, ethical data handling and intended use have been documented since the beginning of the Code Institute Diploma in Data Analytics with AI. Public funding provides a strong example of how data analytics, supported by human oversight, could improve traditional workflows through responsible collaboration with AI agents.
+
+Surveillance capitalism, which monetises consumer data to influence behaviour and reinforce materialism, raises serious ethical concerns. The use of sentiment analysis to manipulate behaviour presents further challenges regarding the responsible application of data analytics.
+
+The reductive nature of statistics can overlook the nuances of creativity, yet it can also reveal how public funding is distributed. For stakeholders, these insights could inform policymakers about funding patterns and support discussions about equitable distribution. However, this project is limited by the lack of information about unsuccessful applicants, assessment criteria and the representation of funding beneficiaries.
+
+Automating decisions and profiling applicants have concerning implications for the arts sector. Although developing a machine-learning model was part of demonstrating the knowledge acquired during the course, this project does not propose automated decision-making for arts funding. The model's limited predictive performance reinforces the importance of human judgement and contextual understanding.
+
+Furthermore, the requirement to demonstrate collaborative work with AI agents raised questions about authorship and accountability. Using an unsupervised large language model to retrieve and interpret online information occasionally exposed the risks of hallucinations, misinformation and misleading assumptions. This reinforced the need for human verification, critical evaluation and transparency when incorporating AI into analytical work.
+
 ## <u>**Credits**</u> 
 
 **Data Licence**
