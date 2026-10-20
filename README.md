@@ -209,13 +209,23 @@ A project board was created and reviewed daily to ensure assessment criteria was
 - *Git:* version control tool to commit changes made on the project.
 - *GitHub:* repository host and project board management. 
 
-## <u>**Improvements**</u>
+## <u>**Maintenance Plan**</u>
 
-The Random Forest classification model was selected to identify trends in the dataset. The models performance was limited but does not eliminate the possibility of engineering a Decision Tree model to compare results. 
+**Model Evaluation**
 
-Once a compatible model is selected and trained a Streamlit app that allows stakeholders to select a different combination of features using a drop down menu could be produced as a product for independent descriptive analytics to identify patterns in past data.
+The Random Forest classification model was selected to explore patterns in the dataset. Its predictive performance was limited, so it is not suitable for automating funding decisions. A Decision Tree classifier could be developed and evaluated as a comparison, using the same evaluation metrics to assess whether it offers improved performance and interpretability.
 
-A map to plot the award distributions across ACE regions would require an additional DataFrame to define the borders for visualisation on Tableau.
+**Interactive Descriptive Analytics**
+
+Following model evaluation, a Streamlit application could be developed to allow stakeholders to select different combinations of features through drop-down menus and explore patterns in historical funding data. The application would support independent descriptive analysis rather than recommend or determine funding awards. Any outputs would need to communicate the limitations of the dataset and model clearly.
+
+**Geographical Visualisation**
+
+A geographical map of award distributions across Arts Council England (ACE) regions could be developed in Tableau. This would require an additional dataset containing the relevant geographical boundaries, linked to the existing funding data. The visualisation could help stakeholders explore regional funding patterns while avoiding the assumption that differences alone demonstrate bias or unfairness.
+
+**Ongoing Review**
+
+Future updates should include reviewing the dataset's source and licensing terms, validating analytical results, reassessing model performance and considering ethical risks relating to representation, transparency and interpretation.
 
 ## <u>**AI Usage**</u>
 
