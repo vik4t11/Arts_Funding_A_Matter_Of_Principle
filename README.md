@@ -225,15 +225,22 @@ In the ML Model notebook Chat GPT and Copilot support the majority of the workfl
 
 With this being said, due to the assessment criteria requirement AI collaboration is clearly demonstrated to speed up the process, which would reduce timely costs for organisations and help them reach their business requirements much quicker with advanced AI accessibility.
 
+Chat GPT was consulted during data licensing research, it suggested the Open Government Licence which had to be verified with further investigation on the sources. The first source DODGE UK is a third-party and therefore is not an official authorisation for the licensing agreement. The agent also asserted confidently that the ACE National Lottery Project Grants was included on data.gov.uk website. However, when checking the catalogue there were other ACE datasets but not the dataset for this project. The agent apologised for their mistake and admitted their ability to verify the license was limited. 
+
+AI usage must be handled with caution. London Business School warn users that 'hallucinations are inherent to how LLMs work – generating plausible sequences of words, not verified facts'. The data licensing research conducted for this project reinforces the importance of checking facts . 
+
+
 ## <u>**Ethical Considerations**</u>
 
 Data minimisation is a principle outlined in Article5(1)(c) on the ICO website as: "adequate, relevant and limited to what is necessary in relation to the purposes for which they are processed (data minimisation)". Thus, to ensure the minimum amount of data required for the project was used recipient and activity columns were removed during data cleaning.   
 
-Random Forest and other tree‑based models used in this project are topic‑agnostic: they treat creative‑sector data the same way they would treat any other domain, meaning the interpretation of their outputs depends heavily on the analyst’s narrative lens. Without human context, these models could unintentionally reinforce bias‑driven interpretations.
+Random Forest or other tree‑based models used in this project are topic‑agnostic: they treat creative‑sector data the same way they would treat any other domain, meaning the interpretation of their outputs depends heavily on the analyst’s narrative lens. Without human context, these models could unintentionally reinforce bias‑driven interpretations.
 
 To avoid this, I combined quantitative analysis with cultural context and human insight, recognising that creative practice cannot be reduced to topic‑agnostic modelling. This approach ensures the project remains legally compliant, ethically grounded, and sensitive to the societal realities of the arts sector.
 
 This project also acknowledges the ethical challenge of applying machine‑learning models to creative practice. Artistic work is nuanced and culturally embedded, and reducing it to categorical features risks oversimplification.
+
+The General Privacy Notice published by ACE affirms 'Arts Council England does not use your personal data for automated decision and profiling.' 
 
 ## <u>**Credits**</u> 
 
@@ -248,6 +255,13 @@ This project also acknowledges the ethical challenge of applying machine‑learn
 *National Data Library* - https://www.data.gov.uk/search
 
 **Other**
+
+*Arts Council England General Privacy Notice* - file:///Users/admin/Downloads/26.09.04%20-%20Arts%20Council%20England%20Privacy.pdf
+
+*Persuasive tactics used by AI* - https://mitsloan.mit.edu/ideas-made-to-matter/how-generative-ai-persuasion-bombs-users-and-how-to-fight-back
+
+*Why is AI so persuasive even when it's wrong?* https://www.london.edu/think/5-things-to-know-about-ai
+
 *Data minimisation* - https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/data-minimisation/
 
 *A guide to data protection principles* - https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/
