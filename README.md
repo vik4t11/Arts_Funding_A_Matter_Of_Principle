@@ -3,13 +3,13 @@
 
 *Arts Funding: A Matter of Principle* examines patterns in public arts funding, distinguishes perceived inequalities from evidence of bias and evaluates the ethical implications of using machine learning to inform funding decisions.
 
-It is essential stakeholders interpret data and implement machine learning models responsibly. The nature of the arts sector lies in its unpredictability. Cultural shifts across art forms and regional growth driven by collective movements can emerge spontaneously, often beyond the reach of historical data. 
+It is essential for stakeholders to interpret data and implement machine learning models responsibly. The nature of the arts sector lies in its unpredictability. Cultural shifts across art forms and regional growth driven by collective movements can emerge spontaneously, often beyond the reach of historical data. 
 
 This analysis brings a human perspective to the limitations of reductive statistics, examining how quantifiable patterns can flatten the complexity of creative practice by overlooking the social, cultural and regional contexts shaping artistic development.
 
 ## <u>**Business Requirements**</u>
 
-The requirement for Summative Assessment 3 is to present a critical evaluation of the ethical implications applying data analytics and machine learning onto public arts funding. The README demonstrates an understanding of data responsibility, model limitations and accountable decision-making.
+The requirements for Summative Assessment 3 is to present a critical evaluation of the ethical implications applying data analytics and machine learning onto public arts funding. The README demonstrates an understanding of data responsibility, model limitations and accountable decision-making.
 
 **Review data handling:** Evaluate the dataset's source, licensing uncertainty, data preparation decisions and minimisation.
 
@@ -37,7 +37,7 @@ The requirement for Summative Assessment 3 is to present a critical evaluation o
 
 ## <u>**Data Licensing**</u> 
 
-[Arts Council England – Project Grants Data](https://www.artscouncil.org.uk/ProjectGrants/project-grants-data) was downloaded from the official website. The [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/) allows data covered by the licence to be reused and adapted, provided the source is credited and the licence conditions are followed.
+[Arts Council England – Project Grants Data](https://www.artscouncil.org.uk/ProjectGrants/project-grants-data) was downloaded from the official website. The [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/) (OGL) allows data covered by the licence to be reused and adapted, provided the source is credited and the licence conditions are followed.
 
 The third-party website [DOGE UK – Arts Council England Grant Data](https://doge-uk.com/funding/arts-council-england-all-grants/) lists the National Lottery Project Grants data under this licence. However, this could not be independently confirmed through ACE's own website. A search of ACE's listings [data.gov.uk](https://www.data.gov.uk/search?page=1&q=Catalogues&query=Catalogues) found other ACE datasets listed under the OGL, but not the specific dataset used in this project. 
 
@@ -57,7 +57,7 @@ The initial hypothesis motivating this project stems from a familiar question wi
 
 This project is underpinned by the personal assumption that funding may not be distributed equally across the cultural sector, reflecting concerns many artists face when navigating public funding systems.
 
-The following research questions apply descriptive and diagnostic analysis to examine funding patterns and investigate potential factors associated with differences in award amounts.
+The following research questions apply descriptive analysis to examine funding patterns and investigate potential factors associated with differences in award amounts.
 
 1. *Are ACE National Lottery Project Grants unevenly distributed across geographic areas?* The hypothesis is that award amounts and grant counts differ across ACE areas. This is investigated through a bivariate analysis in the EDA notebook, alongside Welch’s ANOVA to test whether the differences in mean award amounts between regions are statistically significant.
 
@@ -160,15 +160,15 @@ The dashboard explores the geographical distribution of ACE National Lottery Pro
 
 #### **Dashboard Pages**
 
-**Cover Page - Stakeholders Dashboard Summary** A text summary on the ethical analysis and educational purposes disclaimer.
+**Cover Page - Dashboard Summary** A text summary on the ethical analysis and educational purposes disclaimer.
 
 ![Arts Funding Ethical Analysis Dashboard](images/tableau_sheets/1_cover_page.jpeg)
 
-**Page 1 — Does where you are influence how much funding you receive?** Explore how ACE National Lottery Project Grants are distributed across geographic areas, highlighting regional differences in award amounts.
+**Page 1 — Where do National Lottery Project Grants land?** Explore how ACE National Lottery Project Grants are distributed across geographic areas, highlighting regional differences in award amounts.
 
 ![Arts Funding Ethical Analysis Dashboard](images/tableau_sheets/2_mapping_awards.jpeg)
 
-**Page 2 — What does funding patterns look like across artforms?** Compare award amounts across main artistic disciplines and funding streams to identify differences in funding levels and variation.
+**Page 2 — What is the scale of funding across artforms?** Compare award amounts across main artistic disciplines and funding streams to identify differences in funding levels and variation.
 
 ![Arts Funding Ethical Analysis Dashboard](images/tableau_sheets/3_unequal_by_design.jpeg)
 
@@ -233,16 +233,15 @@ Future updates should include reviewing the dataset's source and licensing terms
 
 ## <u>**AI Usage**</u>
 
-ETL and EDA is predominantly produced using the sources included in the credits section with in-built Copilot modification applied to improve UX design for visualisations and adding comments to code. 
+ETL and EDA is predominantly produced using the sources included in the credits section documented in the **Arts Council England Awards Painted by Numbers* README with in-built Copilot modification applied to improve UX design for visualisations and adding comments to code. 
 
 In the ML Model notebook Chat GPT and Copilot support the majority of the workflow to write code and interpret results. This challenged my original intention to reduce scraping the internet from websites such as Stack Overflow who are impacted by the lack of credit to engineers who wrote original code. 
 
 With this being said, due to the assessment criteria requirement AI collaboration is clearly demonstrated to speed up the process, which would reduce timely costs for organisations and help them reach their business requirements much quicker with advanced AI accessibility.
 
-Chat GPT was consulted during data licensing research, it suggested the Open Government Licence which had to be verified with further investigation on the sources. The first source DODGE UK is a third-party and therefore is not an official authorisation for the licensing agreement. The agent also asserted confidently that the ACE National Lottery Project Grants was included on data.gov.uk website. However, when checking the catalogue there were other ACE datasets but not the dataset for this project. The agent apologised for their mistake and admitted their ability to verify the license was limited. 
+ChatGPT was consulted during the data licensing research and suggested the Open Government Licence (OGL), which required further investigation to verify its applicability to the sources used. The first source, DODGE UK, is a third-party platform and therefore does not constitute official authorisation of the licensing agreement. The AI agent also confidently asserted that the Arts Council England (ACE) National Lottery Project Grants dataset was listed on the data.gov.uk website. However, upon checking the catalogue, other ACE datasets were available, but the dataset used for this project was not listed. The agent subsequently apologised for the error and acknowledged its limitations in verifying the licence.
 
-AI usage must be handled with caution. London Business School warn users that 'hallucinations are inherent to how LLMs work – generating plausible sequences of words, not verified facts'. The data licensing research conducted for this project reinforces the importance of checking facts . 
-
+AI tools must be used with caution. London Business School warns users that ‘hallucinations are inherent to how LLMs work – generating plausible sequences of words, not verified facts’. The data licensing research conducted for this project reinforces the importance of independently verifying AI-generated information, particularly when establishing the legal status and permitted use of data.
 
 ## <u>**Ethical Considerations**</u>
 
@@ -254,7 +253,7 @@ To avoid this, I combined quantitative analysis with cultural context and human 
 
 This project also acknowledges the ethical challenge of applying machine‑learning models to creative practice. Artistic work is nuanced and culturally embedded, and reducing it to categorical features risks oversimplification.
 
-The General Privacy Notice published by ACE affirms 'Arts Council England does not use your personal data for automated decision and profiling.' 
+The General Privacy Notice published by ACE affirms 'Arts Council England does not use your personal data for automated decision and profiling'. 
 
 ## <u>**Limitations and Critical Reflection**</u>
 
@@ -282,7 +281,7 @@ Furthermore, the requirement to demonstrate collaborative work with AI agents ra
 
 **Other**
 
-*Arts Council England General Privacy Notice* - file:///Users/admin/Downloads/26.09.04%20-%20Arts%20Council%20England%20Privacy.pdf
+*Arts Council England General Privacy Notice* - https://www.artscouncil.org.uk/sites/default/files/download-file/ACE_General_Privacy_Notice_Feb_2020_0.pdf 
 
 *Persuasive tactics used by AI* - https://mitsloan.mit.edu/ideas-made-to-matter/how-generative-ai-persuasion-bombs-users-and-how-to-fight-back
 
@@ -316,4 +315,4 @@ I acknowledge and appreciate the use of ChatGPT, Gemini and GitHub Copilot throu
 
 Thank you to Mike for encouraging me to join Code Institute and Laura for supporting me to secure a place on the course. Thank you to my tutor Emma for teaching me there is, in fact, method in the madness. 
 
-I'm grateful for the wellbeing support from my friend Patsy and the Ivkos for accommodating me throughout the learning process. # Arts_Funding_Ethical_Analysis
+I'm grateful for the wellbeing support from my friend Patsy and the Ivkos for accommodating me throughout the learning process.
