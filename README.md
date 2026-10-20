@@ -288,6 +288,10 @@ The General Privacy Notice published by ACE affirms 'Arts Council England does n
 
 *Critical use of generative AI* - https://subjectguides.york.ac.uk/critical/ai
 
+**Image**
+
+*Mechanic hand graphic for dashboard cover page* - https://www.magnific.com/free-psd/robotic-hand-gesturing-advanced-metal-mechanics_405497606.htm#fromView=keyword&page=1&position=4&uuid=be5925de-a01f-42c2-9108-4ac8c870b057&track=ais_hybrid&query=Ai+robot+png
+
 ## <u>**Disclaimer**</u>
 
 *Arts Council England Awards Painted by Numbers* was produced for educational purposes as part of the Code Institute Advanced Data Analytics, Visualisation and Machine Learning Summative Assessment 2. The project simulates a real-world data analysis and fulfils the requirements of the Data Analytics with AI Skills Diploma.
