@@ -1,5 +1,5 @@
 # <u>**Arts Funding: A Matter of Principle**</u>
-### An Ethical Data Analysis of Arts Council England National Lottery Award Distribution and Machine Learning
+### An Ethical Analysis of Arts Council England National Lottery Project Grants
 
 *Arts Funding: A Matter of Principle* examines patterns in public arts funding, distinguishes perceived inequalities from evidence of bias and evaluates the ethical implications of using machine learning to inform funding decisions.
 
@@ -9,7 +9,7 @@ This analysis brings a human perspective to the limitations of reductive statist
 
 ## <u>**Business Requirements**</u>
 
-A critical evaluation of the ethical implications to apply data analytics and machine learning onto public arts funding reinforces understanding of data responsibility, statistical interpretation, model limitations and accountable decision-making.
+The requirement for Summative Assessment 3 is to present a critical evaluation of the ethical implications applying data analytics and machine learning onto public arts funding. The README demonstrates an understanding of data responsibility, model limitations and accountable decision-making.
 
 **Review data handling:** Evaluate the dataset's source, licensing uncertainty, data preparation decisions and minimisation.
 
@@ -39,7 +39,7 @@ A critical evaluation of the ethical implications to apply data analytics and ma
 
 [Arts Council England – Project Grants Data](https://www.artscouncil.org.uk/ProjectGrants/project-grants-data) was downloaded from the official website. The [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/) allows data covered by the licence to be reused and adapted, provided the source is credited and the licence conditions are followed.
 
-The third-party website [DOGE UK – Arts Council England Grant Data](https://doge-uk.com/funding/arts-council-england-all-grants/) lists the National Lottery Project Grants data under this licence. However, this could not be independently confirmed through ACE's own website. A search of ACE's listings [data.gov.uk](https://www.data.gov.uk/search?page=1&q=Catalogues&query=Catalogues) found other ACE datasets listed under the OGL, but not the specific dataset used in this project.. 
+The third-party website [DOGE UK – Arts Council England Grant Data](https://doge-uk.com/funding/arts-council-england-all-grants/) lists the National Lottery Project Grants data under this licence. However, this could not be independently confirmed through ACE's own website. A search of ACE's listings [data.gov.uk](https://www.data.gov.uk/search?page=1&q=Catalogues&query=Catalogues) found other ACE datasets listed under the OGL, but not the specific dataset used in this project. 
 
 In comparison, the [National Lottery Heritage Funds](https://www.heritagefund.org.uk/about/insight/open-data) explicitly states that its grant data is published under the OGL and available for reuse. It identifies policymakers, researchers, journalists, heritage organisations, potential applicants and the public as intended audiences. This illustrates how clear licensing information can support access to public funding data, although the Heritage Fund's arrangements do not confirm the licence applicable to ACE's data.
 
@@ -67,13 +67,13 @@ The following research questions apply descriptive and diagnostic analysis to ex
 
 ## <u>**Methodology**</u>
 
-An end-to-end analytical workflow moves from raw data to an insightful dashboard, presenting discoveries from EDA alongside a simple machine-learning model designed to identify funding patterns.
+An end-to-end analytical workflow moves from raw data to an insightful dashboard, presenting discoveries from EDA alongside evaluation metrics for a simple machine-learning model designed to identify funding patterns.
 
 **Data Collection** - Two publicly accessible ACE National Lottery Project Grants datasets (2023–2024 and 2025–2026) are loaded from the Arts Council website for this project.
 
-**Extract, Transform, Load (ETL)** - Data integrity is ensured prior to analysis by standardising column names and inspecting and addressing missing, unique or duplicate records. Reviewing data types ensures numerical, date-time and categorical columns are compatible with plotting in the EDA notebook. 
+**Extract, Transform, Load (ETL)** - Data integrity is ensured prior to analysis by standardising column names and inspecting and addressing missing, unique or duplicate records. Reviewing data types ensures numerical, date-time and categorical columns are compatible with plotting in the EDA notebook. The two datasets are joined, and a year column is added.
 
-The final step joins the two datasets, adds a year column and removes columns containing potentially sensitive information to support responsible data handling. The resulting DataFrame is saved in the clean data folder.
+Columns containing personal identifiable information were removed to comply with Article 5(1)(c) of the GDPR. The final DataFrame is saved in the clean data folder.
 
 **Exploratory Data Analysis (EDA)** - Award amount patterns are explored across ACE areas, main disciplines and funding streams using Pandas, NumPy, Matplotlib and Seaborn to visualise distributions and differences through boxplots, scatterplots, histograms and bar charts. 
 
@@ -85,7 +85,9 @@ Statistical techniques, including descriptive statistics and Welch’s ANOVA, co
 
 Model performance is evaluated using test accuracy, macro F1-score, precision, recall and a confusion matrix comparing actual and predicted tiers. Feature importance is then assessed to identify which attributes contribute most to the model's predictions.
 
-**Dashboard Creation** - A Tableau dashboard frames visualisations and paints the numbers of year-on-year award amounts across ACE areas, main disciplines and funding streams. The interactive dashboard explores the research hypotheses, connecting the findings to reveal patterns in cultural funding. The dashboard also presents the multiclass machine-learning model's accuracy to assess how effectively it predicts award amount tiers and whether machine learning can identify meaningful patterns in creative funding.
+**Dashboard Creation** - A Tableau dashboard frames visualisations and paints the numbers of year-on-year award amounts across ACE areas, main disciplines and funding streams. The interactive dashboard explores the research hypotheses, connecting the findings to reveal patterns in cultural funding. 
+
+The dashboard also presents the multiclass machine-learning model's accuracy to assess how effectively it predicts award amount tiers and whether machine learning can identify meaningful patterns in creative funding.
 
 ## <u>**Analysis Techniques Used**</u>
 
@@ -225,6 +227,8 @@ With this being said, due to the assessment criteria requirement AI collaboratio
 
 ## <u>**Ethical Considerations**</u>
 
+Data minimisation is a principle outlined in Article5(1)(c) on the ICO website as: "adequate, relevant and limited to what is necessary in relation to the purposes for which they are processed (data minimisation)". Thus, to ensure the minimum amount of data required for the project was used recipient and activity columns were removed during data cleaning.   
+
 Random Forest and other tree‑based models used in this project are topic‑agnostic: they treat creative‑sector data the same way they would treat any other domain, meaning the interpretation of their outputs depends heavily on the analyst’s narrative lens. Without human context, these models could unintentionally reinforce bias‑driven interpretations.
 
 To avoid this, I combined quantitative analysis with cultural context and human insight, recognising that creative practice cannot be reduced to topic‑agnostic modelling. This approach ensures the project remains legally compliant, ethically grounded, and sensitive to the societal realities of the arts sector.
@@ -244,6 +248,9 @@ This project also acknowledges the ethical challenge of applying machine‑learn
 *National Data Library* - https://www.data.gov.uk/search
 
 **Other**
+*Data minimisation* - https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/data-minimisation/
+
+*A guide to data protection principles* - https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/
 
 *Freedom of Information Act 2000* - https://ico.org.uk/for-organisations/foi/what-is-the-foi-act-and-are-we-covered/
 
