@@ -156,13 +156,11 @@ The dashboard explores the geographical distribution of ACE National Lottery Pro
 - Simple UX design to optimise visual clarity. 
 
 **Live Dashboard Link:**
-https://public.tableau.com/views/ArtsFundingAMatterofPrinciple/Dashboard4?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
-
 [public.tableau.com/views/ArtsFundingAMatterofPrinciple](https://public.tableau.com/views/ArtsFundingAMatterofPrinciple/Dashboard4?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 #### **Dashboard Pages**
 
-**Cover Page - Stakeholders Dashboard Summary** 
+**Cover Page - Stakeholders Dashboard Summary** A text summary on the ethical analysis and educational purposes disclaimer.
 
 ![Arts Funding Ethical Analysis Dashboard](images/tableau_sheets/1_cover_page.jpeg)
 
