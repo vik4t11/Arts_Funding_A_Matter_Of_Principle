@@ -142,9 +142,9 @@ The results do not support using this model to reliably predict award amount tie
 
 ## <u>Dashboard Overview</u>
 
-A Tableau dashboard was designed to translate exploratory data analysis and machine-learning insights into accessible visual insights for arts-sector stakeholders. The dashboard explores the geographical distribution of ACE National Lottery Project Grants, compares award amounts across artistic disciplines and presents model evaluation metrics.
+The Tableau dashboard was adapted to incorporate an ethical review of the exploratory data analysis and machine-learning findings. A new cover page introduces the project's purpose and ethical considerations, while text boxes contextualise funding distributions, explain model performance and highlight the limitations of data-driven interpretations.
 
-Together, these visualisations examine potential patterns in public arts funding and provide an evidence base for further discussion about its distribution.
+The dashboard explores the geographical distribution of ACE National Lottery Project Grants, compares award amounts across artistic disciplines and presents model evaluation metrics. Together, these visualisations examine patterns in public arts funding while emphasising the importance of transparency, human interpretation and responsible conclusions about potential inequalities.
 
 #### **Dashboard Features**
 
@@ -156,21 +156,27 @@ Together, these visualisations examine potential patterns in public arts funding
 - Simple UX design to optimise visual clarity. 
 
 **Live Dashboard Link:**
-https://public.tableau.com/app/profile/viktoria.tchibor/viz/ArtsCouncilEnglandAwardsPaintedByNumbers
+https://public.tableau.com/views/ArtsFundingAMatterofPrinciple/Dashboard4?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+
+[public.tableau.com/views/ArtsFundingAMatterofPrinciple](https://public.tableau.com/views/ArtsFundingAMatterofPrinciple/Dashboard4?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 #### **Dashboard Pages**
 
-**Page 1 — Does where you are influence how much funding you receive?** Explore how ACE National Lottery Project Grants are distributed across geographic areas, highlighting regional differences in award numbers and amounts.
+**Cover Page - Stakeholders Dashboard Summary** 
 
-![Arts Council England Funding Dashboard](images/tableau_sheets/1_landscape_of_arts_funding.jpeg)
+![Arts Funding Ethical Analysis Dashboard](images/tableau_sheets/1_cover_page.jpeg)
+
+**Page 1 — Does where you are influence how much funding you receive?** Explore how ACE National Lottery Project Grants are distributed across geographic areas, highlighting regional differences in award amounts.
+
+![Arts Funding Ethical Analysis Dashboard](images/tableau_sheets/2_mapping_awards.jpeg)
 
 **Page 2 — What does funding patterns look like across artforms?** Compare award amounts across main artistic disciplines and funding streams to identify differences in funding levels and variation.
 
-![Arts Council England Funding Dashboard](images/tableau_sheets/2_inside_the_funding_mix.jpeg)
+![Arts Funding Ethical Analysis Dashboard](images/tableau_sheets/3_unequal_by_design.jpeg)
 
 **Page 3 — Can Machine Learning make sense of creative funding?** Random Forest model evaluation metrics are displayed to determine whether funding patterns can be reliably made using categorical features.
 
-![Arts Council England Funding Dashboard](images/tableau_sheets/3_ml_model_performance.jpeg)
+![Arts Funding Ethical Analysis Dashboard](images/tableau_sheets/4_model_performance.jpeg)
 
 
 ## <u>Development Roadmap</u> 
